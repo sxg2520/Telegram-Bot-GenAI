@@ -1,32 +1,59 @@
-Telagram-Bot-using-GenAI
-Prerequisites
+# Telagram-Bot-GenAI
+
+
+## Prerequisites
+
 To follow this tutorial, you will need:
 
-Python 3.8 or higher
-A Telegram account and a smartphone
-An OpenAI account and an API key
-How to run?
-STEPS:
+- Python 3.8 or higher
+- A Telegram account and a smartphone
+- An OpenAI account and an API key
+
+
+
+# How to run?
+### STEPS:
+
 Clone the repository
 
-Project repo: https://github.com/sxg2520/Telegram-Bot-GenAI
-STEP 01- Create a conda environment after opening the repository
-conda create -n telebot python=3.8 -y
-conda activate telebot
-STEP 02- install the requirements
+```bash
+Project repo: https://github.com/sxg2520/Telegram-Bot-GenAI.git
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n bot python=3.8 -y
+```
+
+```bash
+conda activate bot
+```
+
+
+### STEP 02- install the requirements
+```bash
 pip install -r requirements.txt
-AIogram docs
+```
+
+
+### AIogram docs
 https://docs.aiogram.dev/en/latest/
 
-Telegram Setup:
-Search for botfather
 
-/newbot
+## Telegram Setup:
 
-mybot88
-mybot88_bot
-Now click on url to access the bot
-Make sure you collect the access token
-Add in .env
+1. Search for botfather
+2. /newbot
+   - mybot88
+   - mybot88_bot
+
+   * Now click on url to access the bot
+   * Make sure you collect the access token
+
+
+### Add in .env the following secrets
+
+```ini
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TELEGRAM_BOT_TOKEN=xxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
